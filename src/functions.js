@@ -14,6 +14,11 @@
 
 //your code here
 
+function uselessFunction()
+{
+	return null;
+}
+
 //end your code
 
 var bar = 'not a function';
@@ -31,6 +36,29 @@ var barType = typeof bar;
 
 //your code here
 
+bar = function (doubleArray)
+{
+	var i;
+	var arrayLength;
+
+	arrayLength = doubleArray.length;
+
+	for (i=0; i<arrayLength; i++)
+	{
+		if(typeof doubleArray[i] !== 'number')
+		{
+			return false;
+		}
+		else
+		{
+			doubleArray[i] = doubleArray[i] * 2;
+		}
+	}
+		
+	return true;
+}
+
+
 //end your code
 
 /**
@@ -40,7 +68,8 @@ var barType = typeof bar;
 * @property {Date} date - the date of the commit as a JS Date object
 * @property {string} message - the commit message
 */
-function GitLog(hash, date, message) {
+function GitLog(hash, date, message) 
+{
     this.hash = hash;
     this.date = date;
     this.message = message;
@@ -66,5 +95,40 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+
+function parseGit(logArray)
+{
+	var i, j, k, hash, date, message, arrayLength, arrayGitLog;
+	var arrayStringSplit, arraySplitLength;
+	var arrayMessage, arrayDate;
+	var objectDate, objectLog;
+
+	arrayLength = logArray.length;
+	
+	arrayGitLog, arrayMessage, arrayDate = [];
+
+
+	for(i=0;  i<arrayLength; i++)
+	{
+		arrayStringSplit = logArray[i].split(" ");
+		
+		arraySplitLength = arrayStringSplit.length;
+		
+		hash = arrayStringSplit[0];
+
+		for (j=0; j<6; j++)
+		{
+			arrayDate.unshift(arrayStringSplit[j]);
+		}
+
+		for (k=6; k<arraySplitLength; k++)
+		{
+			arrayMessage.unshift(arrayStringSplit[k]);
+		}
+	}
+
+	return arrayGitLog;
+}
+
 
 //end your code
