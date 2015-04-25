@@ -1,1 +1,34 @@
-You log goes in this  file.
+
+
+Start: Sun, 19 Apr 2015 12:30:26 -0700
+End: Sun, 19 Apr 2015 14:12:15 -0700
+Tasks: Re-read instructions for Assignment 3, Part 1 and recorded
+necessary steps in workbook.  Re-watched Week 3 videos.
+
+Start: Mon, 20 Apr 2015 15:56:41 -0700
+End: Mon, 20 Apr 2015 16:45:08 -0700
+Tasks: Read Piazza forums to get a better understanding of the 
+requirements.
+
+Start: Wed, 22 Apr 2015 15:41:27 -0700
+End: Wed, 22 Apr 2015 17:52:48 -0700
+Tasks: Made new repository, cloned instructors repository, and 
+pushed instructors data to new repository. Began working on src
+folder .js files.
+
+Start: Thur, 23 Apr 2015 15:30:26 -0700
+End: Thur, 23 Apr 2015 18:12:15 -0700
+Tasks: Worked on functions.js uselessFunction() and function(doubleArray) and function GitLog
+
+Start: Thur, 23 Apr 2015 19:08:19 -0700
+End: Thur, 23 Apr 2015 21:12:15 -0700
+Tasks: Worked on functions.js function parseGit and variables.js
+
+Start: Fri, 24 Apr 2015 15:46:26 -0700
+End: Fri, 24 Apr 2015 19:51:11 -0700
+Tasks:  Worked on objects.js function returnObjectLiteral and function MessageLog() and finished objects.js
+
+Start: Sat, 25 Apr 2015 10:06:53 -0700
+End: Sat, 25 Apr 2015 14:50:15 -0700
+Tasks: Attempted to complete function parseGit. Time constraints are a major obstacle for me. I need to concentrate efforts on Assignment 3, Part 2.  Finished with Assignment 3, Part 1 at 34 out of 36 assertions passed.
+
