@@ -14,14 +14,14 @@
 
 //your code here
 
-function uselessFunction()
+function uselessFunction() // function that accepts no arguments
 {
 	return null;
 }
 
 //end your code
 
-var bar = 'not a function';
+var bar = 'not a function'; // variable declarations
 var barType = typeof bar;
 
 /**
@@ -39,11 +39,11 @@ var barType = typeof bar;
 bar = function (doubleArray)
 {
 	var i;
-	var arrayLength;
+	var arrayLength; // variable delcarations
 
 	arrayLength = doubleArray.length;
 
-	for (i=0; i<arrayLength; i++)
+	for (i=0; i<arrayLength; i++) // for loop running through length of array
 	{
 		if(typeof doubleArray[i] !== 'number')
 		{
@@ -51,7 +51,7 @@ bar = function (doubleArray)
 		}
 		else
 		{
-			doubleArray[i] = doubleArray[i] * 2;
+			doubleArray[i] = doubleArray[i] * 2; // multiply every number by 2
 		}
 	}
 		
@@ -96,11 +96,11 @@ function GitLog(hash, date, message)
 
 //your code here
 
-function parseGit(logArray)
+function parseGit(logArray) // function to parse Git commit logs
 {
 	var i, j, k, hash, date, message, arrayLength, arrayGitLog;
 	var arrayStringSplit, arraySplitLength;
-	var arrayMessage, arrayDate;
+	var arrayMessage, arrayDate;   // variable declarations
 	var objectDate, objectLog;
 
 	arrayLength = logArray.length;
@@ -128,6 +128,8 @@ function parseGit(logArray)
 	}
 
 	return arrayGitLog;
+
+	// I was unsuccessful in completing function parseGit
 }
 
 
