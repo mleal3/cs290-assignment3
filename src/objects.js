@@ -41,7 +41,7 @@ function returnObjectLiteral()
 */
 
 //your code here
-function MessageLog(user)
+function MessageLog(user) // constructor function
 {
 	this.user = user;
 	this.userSent = 0;
@@ -52,9 +52,9 @@ function MessageLog(user)
 	this.logMessage = function (messageText, direction)
 	{
 		
-		if (direction === 0)
+		if (direction === 0) // indicates message sent
 		{
-			this.userSent = this.userSent + 1;
+			this.userSent = this.userSent + 1; // sent total
 			
 			if (this.sentMessage.unshift(messageText) > 5)
 			{
@@ -62,25 +62,25 @@ function MessageLog(user)
 			}
 		}
 		
-		else if (direction === 1) 
+		else if (direction === 1) // indicates message received
 		{
-			this.userReceived = this.userReceived + 1;
+			this.userReceived = this.userReceived + 1; // received total
 
-			this.receivedMessage = messageText;
+			this.receivedMessage = messageText; // recently received
 		}
 	}
 
-	this.getSentMessage = function(n)
+	this.getSentMessage = function(n) // returns content of nth most sent message
 	{
 		return this.sentMessage[n];
 	}
 
-	this.totalSent = function()
+	this.totalSent = function() // indicates total messages sent
 	{
 		return this.userSent;
 	}
 	
-	this.totalReceived = function()
+	this.totalReceived = function() // indicates total messages received
 	{
 		return this.userReceived;
 	}
@@ -94,7 +94,7 @@ function MessageLog(user)
 * received.
 */
 //your code here
-MessageLog.prototype.lastReceivedMessage = function()
+MessageLog.prototype.lastReceivedMessage = function() // messageLog prototype
 {
 	return this.receivedMessage;
 }
@@ -113,7 +113,7 @@ var myLog;
 myLog = new MessageLog("BlackHatGuy");
 
 myLog.logMessage("foo", 1);
-myLog.logMessage("bar", 1);
+myLog.logMessage("bar", 1); // instances of MessageLog
 myLog.logMessage("baz", 1);
 
 //end your code
