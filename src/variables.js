@@ -12,15 +12,15 @@ a: the original a number
 function variableModification(a) 
 {
   var plus5;
-  var asString;
+  var asString;  // variable declarations
   var yourNumberIs;
   //your code here
   
-  plus5 = a + 5;
+  plus5 = a + 5; // sum of 5 and 'a'
   
-  asString = a.toString();
+  asString = a.toString(); // converted to string
   
-  yourNumberIs = "Your Number is " + a;
+  yourNumberIs = "Your Number is " + a; // string
 
   //end your code
   return [plus5, asString, yourNumberIs, a];
@@ -37,9 +37,9 @@ false otherwise
 function isString(b) 
 {
   //your code here
-  if (typeof b === "string")
+  if (typeof b === "string") // string literal
   {
-    return true;
+    return true; 
   }
   else
   {
@@ -61,7 +61,7 @@ function isNull(c)
   
   if (c === null)
   {
-    return true;
+    return true; // return true if null
   }
   else
   {
