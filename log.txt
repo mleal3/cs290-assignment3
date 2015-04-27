@@ -29,6 +29,14 @@ End: Fri, 24 Apr 2015 19:51:11 -0700
 Tasks:  Worked on objects.js function returnObjectLiteral and function MessageLog() and finished objects.js
 
 Start: Sat, 25 Apr 2015 10:06:53 -0700
-End: Sat, 25 Apr 2015 14:50:15 -0700
-Tasks: Attempted to complete function parseGit. Time constraints are a major obstacle for me. I need to concentrate efforts on Assignment 3, Part 2.  Finished with Assignment 3, Part 1 at 34 out of 36 assertions passed.
+End: Sat, 25 Apr 2015 16:50:15 -0700
+Tasks: Gave my best effort to complete function parseGit. Time constraints are a major obstacle for me. I need to concentrate efforts on Assignment 3, Part 2.  Finished with Assignment 3, Part 1 at 34 out of 36 assertions passed.
 
+Start: Sat, 25 Apr 2015 17:15:33 -0700
+End: Sat, 25 Apr 2015 23:01:07 -0700
+Tasks: Worked on Assignment 3, Part 2 for many hours. Most of it 
+was spent reading Piazza and studying online. I still had a lot of confusion as to what is expected. Began working on index.html
+
+Start: Sun, 25 Apr 2015 12:20:45 -0700
+End: Sun, 25 Apr 2015 19:18:51 -0700
+Tasks: Finished index.html and began working on src.js. I rewatched all of the videos lectures and spent the majority of the day reading but I am very lost. I read all of the Piazza posts but I am unsure of what to do. I have no expericene with js. I would like to see working code afterwards to see what is expected.
